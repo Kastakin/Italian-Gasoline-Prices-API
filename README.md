@@ -33,9 +33,9 @@
 
 ## About
 
-The Italian Government makes aviable to every citzen the price charged by gas stations for gasoline along with their location on the territory.
+The Italian Government makes aviable to every citzen the price charged by gas stations for gasoline along with their location on the territory. This information is free of charge but not really presented in an accessible way.
 
-This little application stack fetches these prices from the [government website](https://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti), stores the data in a PostgreSQL DB and makes it accessible from an API powered by [FastAPI](https://fastapi.tiangolo.com/).
+This little stack fetches these prices from the [government website](https://www.sviluppoeconomico.gov.it/index.php/it/open-data/elenco-dataset/2032336-carburanti-prezzi-praticati-e-anagrafica-degli-impianti), stores the data in a PostgreSQL DB and makes it accessible from an API powered by [FastAPI](https://fastapi.tiangolo.com/).
 
 The project is still in an early stage of developemnt and at the momemnt is more a proof of concept then a finished product!
 
