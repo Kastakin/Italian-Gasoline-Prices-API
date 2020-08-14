@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "pipenv"
+    directory: "/gasapi" # Location of package manifests
+    schedule:
+      interval: "daily"
+      
+  - package-ecosystem: "pipenv"
+    directory: "/gasdb" # Location of package manifests
+    schedule:
+      interval: "daily"
+      
+  
