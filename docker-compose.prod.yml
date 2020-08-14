@@ -1,0 +1,29 @@
+version: "3"
+
+services: 
+    db:
+        image: "postgres:12.3"
+        healthcheck:
+            test: ["CMD-SHELL", "pg_isready -U postgres"]
+            interval: 10s
+            timeout: 5s
+            retries: 5
+        environment:
+            - POSTGRES_DB=gasdb
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=postgres
+
+    db_updater:
+        build: ./gasdb
+        command: python run.py
+        depends_on: 
+            - "db"
+            - "api"
+
+    api:
+        build: ./gasapi
+        command: python run.py
+        ports:
+            - "8000:8000"
+        depends_on: 
+            - "db"
