@@ -1,0 +1,3 @@
+https://www.sviluppoeconomico.gov.it/images/exportCSV/prezzo_alle_8.csv
+
+https://www.sviluppoeconomico.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv
