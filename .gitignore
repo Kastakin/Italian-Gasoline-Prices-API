@@ -144,11 +144,10 @@ dmypy.json
 .vscode/tasks.json
 .vscode/launch.json
 .vscode/extensions.json
-settings.json
 *.code-workspace
+settings.json
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python
