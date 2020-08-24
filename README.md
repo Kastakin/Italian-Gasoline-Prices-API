@@ -95,7 +95,7 @@ This will stop and remove the containers used in the stack:
 
 ## Contributing
 
-Contributions are more then welcome, no matter wht your level of experience might be!
+Contributions are more then welcome, no matter what your level of experience might be!
 
 Check the [Contributing Guidilines](/CONTRIBUTING.md) for the project!
 
